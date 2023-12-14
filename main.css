@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
   }
   
   body {
@@ -9,6 +10,7 @@
     background-image: url('bg.jpg');
     background-size: cover;
     background-position: top center;
+   
   }
   
   .app-wrap {
@@ -31,7 +33,7 @@
     padding: 10px 15px;
     border: none;
     outline: none;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(247, 53, 5, 0.3);
     border-radius: 0px 16px 0px 16px;
     border-bottom: 3px solid gray;
   
@@ -42,7 +44,7 @@
   }
   
   header input:focus {
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(244, 10, 10, 0.6);
   }
   
   main {
@@ -52,6 +54,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    background-color: rgb(184, 232, 108);
   }
   
   .location .city {
@@ -92,4 +95,24 @@
     font-size: 24px;
     font-weight: 500;
     text-shadow: 0px 4px rgba(0, 0, 0, 0.4);
+  }
+
+
+
+  .footer {
+    background: #061D25;
+    padding: 10px 0;
+  }
+  .footer a {
+    color: #70726F;
+    font-size: 20px;
+    padding: 10px;
+    border-right: 1px solid #70726F;
+    transition: all .5s ease;
+  }
+  .footer a:first-child {
+    border-left: 1px solid #70726F;
+  }
+  .footer a:hover {
+    color: white;
   }
